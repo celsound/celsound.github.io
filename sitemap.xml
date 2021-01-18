@@ -1,80 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>/posts/fragments-of-iceland/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>/en/sitemap.xml</loc>
+    
+      <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>/es/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>/pt-br/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>/posts/japan/</loc>
-    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>/de/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>/posts/grand-canyon/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/the-ride-in-the-woods/</loc>
-    <lastmod>2018-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/best-waves-surfing-spain/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/fox-village-in-japan/</loc>
-    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/basic-rules-for-walking-in-the-mountains/</loc>
-    <lastmod>2018-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/interior-designer/</loc>
-    <lastmod>2017-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/working-from-home/</loc>
-    <lastmod>2016-08-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-  </url>
-  
-  <url>
-    <loc>/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>/style-guide/</loc>
-  </url>
-  
-  <url>
-    <loc>/thank-you/</loc>
-  </url>
-  
-</urlset>
+</sitemapindex>
