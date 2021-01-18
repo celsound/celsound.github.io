@@ -1,0 +1,77 @@
+title: Tales from the Basement
+baseURL: /
+defaultContentLanguage: en
+params:
+  description: Chronicles about working as a developer in the Engineering world.
+  layout_style: overflow
+  palette: blue
+  header:
+    title: Tales from the Basement
+    tagline: by Celso Rangel Jr.
+    profile_img: images/avataaars.png
+    profile_img_alt: Author avatar
+    background: dark
+    has_nav: true
+    nav_links:
+      - label: Home
+        url: /
+        style: link
+      - label: Development
+        url: /blog/
+        style: link
+      - label: Agile
+        url: /blog/
+        style: link
+      - label: Cocktails
+        url: /blog/
+        style: link
+      - label: Blog
+        url: /blog/
+        style: link
+      - label: Style Guide
+        url: /style-guide/
+        style: link
+      - label: About
+        url: /about/
+        style: link
+      - label: Contact
+        url: /contact/
+        style: link
+    has_social: true
+    social_links:
+      - label: GitHub
+        url: 'https://github.com/celsound'
+        style: icon
+        icon_class: fa-github
+        new_window: true
+      - label: LinkedIn
+        url: 'https://www.linkedin.com/in/celso-rangel-jr-20a21828/'
+        style: icon
+        icon_class: fa-linkedin
+        new_window: true
+  footer:
+    content: >-
+      &copy; Celso Rangel Thomaz Junior. All rights reserved. Created with Hugo using the
+      <a href="https://themes.stackbit.com/demos/fresh/"
+      target="_blank" rel="noopener">Stackbit Fresh theme</a>. 
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+languages:
+  en:
+    languageName: English
+    weight: 1
+  es:
+    languageName: Spanish
+    weight: 2
+    description: Crónicas sobre ser un desarrollador en el mundo de la Ingeniería.
+  pt-br:
+    languageName: Portuguese
+    weight: 3
+  de:
+    languageName: Deutsch
+    weight: 4
+
