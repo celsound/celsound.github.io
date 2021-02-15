@@ -15,17 +15,27 @@
           <p class="site-description">{{ $.Site.Params.header.tagline }}</p>
           {{ end }}
         </div><!-- .site-identity -->
+       
         {{ if or .Site.Params.header.has_nav .Site.Params.header.has_social }}
         <button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu"
             aria-hidden="true"></span></button>
-        {{ end }}
+        {{ end }}       
       </div><!-- .site-branding -->
+
+      {{ if .Site.IsMultiLingual }}
+
+      <div class="menu-item">
+        <img src="/images/translate-2.png"/>
+          {{ range $.Site.Home.AllTranslations }}
+            <a href="{{ .Permalink }}">{{ .Language.LanguageName }} </a>
+          {{ end }}
+      </div>
+      {{ end }}
 
       {{ if or .Site.Params.header.has_nav .Site.Params.header.has_social }}
       <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
         <div class="site-nav-wrap">
           <div class="site-nav-inside">
-
             {{ if $.Site.Params.header.has_nav }}
             <ul class="menu">
               {{ range $action := $.Site.Params.header.nav_links }}
@@ -57,7 +67,7 @@
               {{ end }}
               {{ end }}
             </div><!-- .social-links -->
-            {{ end }}
+            {{ end }}        
           </div><!-- .site-nav-inside -->
         </div><!-- .site-nav-wrap -->
       </nav><!-- .site-navigation -->

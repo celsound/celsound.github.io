@@ -6,12 +6,12 @@ sections:
     type: section_hero
     title: 'Tales from the Basement'
     content: >-
-      Crónicas sobre el trabajo como desarrollador en el mundo de la ingeniería.
+      Crônicas sobre como trabalhar como desenvolvedor no mundo da engenharia.
   - section_id: about
     type: section_content
     title: About
     content: >-
-      Soy un ingeniero mecánico y desarrollador, trabajando con aplicaciones de ingeniería. Desarrollador de PML y C#. Cuando no estoy en el trabajo, disfruto escribiendo historias cortas sobre las cosas incómodas de la vida y preparando cócteles.
+      Sou Engenheiro Mecânico e desenvolvedor, trabalhando com Aplicações de Engenharia. Desenvolvedor de PML e C#. Quando não estou trabalhando, gosto de escrever contos sobre as coisas incômodas da vida e preparar drinques.
     actions:
       - label: Contact Me
         url: /contact

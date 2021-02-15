@@ -13,9 +13,9 @@ params:
     background: dark
     has_nav: true
     nav_links:
-      - label: Home
-        url: /
-        style: link
+      # - label: Home
+      #   url: /
+      #   style: link
       - label: Development
         url: /blog/
         style: link
@@ -25,12 +25,15 @@ params:
       - label: Cocktails
         url: /blog/
         style: link
-      - label: Blog
+      - label: Travel
         url: /blog/
         style: link
-      - label: Style Guide
-        url: /style-guide/
-        style: link
+      # - label: Blog
+      #   url: /blog/
+      #   style: link
+      # - label: Style Guide
+      #   url: /style-guide/
+      #   style: link
       - label: About
         url: /about/
         style: link
@@ -62,16 +65,16 @@ disableKinds:
   - taxonomyTerm
 languages:
   en:
-    languageName: English
+    languageName: EN
     weight: 1
   es:
-    languageName: Spanish
+    languageName: ES
     weight: 2
     description: Crónicas sobre ser un desarrollador en el mundo de la Ingeniería.
   pt-br:
-    languageName: Portuguese
+    languageName: PT-BR
     weight: 3
   de:
-    languageName: Deutsch
+    languageName: DE
     weight: 4
 
