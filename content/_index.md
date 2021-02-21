@@ -13,8 +13,8 @@ sections:
     content: >-
       I am a Mechanical Engineer and developer, working with Engineering Applications. PML and C# developer. When not at work, I enjoy writing short stories about the awkward things in life and mixing tasty cocktails.
     actions:
-      - label: Contact Me
-        url: /contact
+      - label: About Me
+        url: /about
         style: button
   - section_id: recent-posts
     type: section_posts

@@ -25,9 +25,9 @@ params:
       - label: Cocktails
         url: /blog/
         style: link
-      - label: Travel
-        url: /blog/
-        style: link
+      # - label: Travel
+      #   url: /blog/
+      #   style: link
       # - label: Blog
       #   url: /blog/
       #   style: link
@@ -36,9 +36,6 @@ params:
       #   style: link
       - label: About
         url: /about/
-        style: link
-      - label: Contact
-        url: /contact/
         style: link
     has_social: true
     social_links:
@@ -51,6 +48,11 @@ params:
         url: 'https://www.linkedin.com/in/celso-rangel-jr-20a21828/'
         style: icon
         icon_class: fa-linkedin
+        new_window: true
+      - label: Twitter
+        url: 'https://twitter.com/celsound25'
+        style: icon
+        icon_class: fa-twitter
         new_window: true
   footer:
     content: >-

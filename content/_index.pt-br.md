@@ -13,15 +13,15 @@ sections:
     content: >-
       Sou Engenheiro Mecânico e desenvolvedor, trabalhando com Aplicações de Engenharia. Desenvolvedor de PML e C#. Quando não estou trabalhando, gosto de escrever contos sobre as coisas incômodas da vida e preparar drinques.
     actions:
-      - label: Contact Me
-        url: /contact
+      - label: Sobre mim
+        url: /pt-br/about
         style: button
   - section_id: recent-posts
     type: section_posts
-    title: Recent Posts
+    title: Posts Recentes
     posts_number: 4
     actions:
-      - label: View Blog
+      - label: Blog
         url: blog/index.html
         style: button
 layout: advanced
