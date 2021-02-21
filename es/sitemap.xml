@@ -35,6 +35,16 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="pt-br"
+                href="/pt-br/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="/es/about/"
                 />

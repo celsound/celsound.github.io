@@ -26,4 +26,28 @@
                 />
   </url>
   
+  <url>
+    <loc>/pt-br/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/pt-br/about/"
+                />
+  </url>
+  
 </urlset>
